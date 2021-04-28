@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
+    <link rel="shortcut icon" type="image/x-icon" href="assets/img/icon.png">
+    <title>G-Tak-Masterpiece Documentation</title>
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body data-spy="scroll" data-target="#sidebar-menu" data-offset="100">
+<div class="main-wrapper">
+
+    <div class="sidebar" id="sidebar">
+        <div class="sidebar-logo">
+            <a href="">
+                <img src="assets/img/logo2.png" class="img-fluid" alt="">
+            </a>
+        </div>
+        <div class="sidebar-inner sidebar-sticky">
+            <div id="sidebar-menu" class="sidebar-menu sidebar-body">
+                <ul class="nav nav-sidebar">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#introduction">Introduction</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#get-started">Installation</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#requirements">Requirements</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#lar_structure">Laravel Structure</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#credits">Credits</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Mockup">Mockup</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="page-wrapper" id="introduction">
+        <div class="content container-fluid">
+
+            <div class="page-header">
+                <div class="card">
+                    <div class="card-body">
+                        <h2>Documentation</h2>
+                        <p class="lead mb-0"><strong>G-Tak</strong> - Documentation</p>
+                    </div>
+                </div>
+            </div>
+
+            <section class="intro">
+                <h3>Introduction</h3>
+                <ul>
+                    <li>Created on: March 2021</li>
+                    <li>Developed by: <a target="_blank" href="https://www.linkedin.com/in/sadi-ashlaq/">Sadi
+                        Ashlaq </a>
+                    </li>
+                    <li>Support via email: <a href="mailto:sadi.ashlaq@gmail.com">sadi.ashlaq@gmail.com</a></li>
+                </ul>
+                <p>This website is built with Laravel 7.7.1. I have also added few reusable components which speedup the
+                    development.</p>
+                <hr>
+                <h3>Project Information</h3>
+                <p>This idea came up to me because I'm an expert in mobile software and hardware, most people have
+                    difficult time in getting the necessary help to fix their phones, my service will be their number
+                    one to go.</p>
+                <hr>
+                <h3>General Description</h3>
+                <ul class="mt-3">
+                    <li>The website is made to help customers book appointment to fix their mobile, we will come to
+                        their doorstep after that
+                    </li>
+                    <li>The user need to fill a form with the problem they are facing, they must be logged in</li>
+                    <li>The user will be asked for a location so we can get to them</li>
+                    <li>The user will get a bill after the phone is fixed</li>
+                    <li>The website will have 3 types of users, Admin and super admin also normal user</li>
+                    <li>Normal user will be able to register/login then use our service</li>
+                    <li>Super admin will be able to control everything on the website and have access to every data</li>
+                    <li>Admin will be able to control everything on the website and have access to every data</li>
+                </ul>
+                <hr>
+                <h3>Main Goal</h3>
+                <p>Lessen the time and effort for the client and come up with a trendy way to fix your phone. </p>
+                <hr>
+                <h3>Frontend / Backend technologies</h3>
+                <hr style="width: 50%">
+                <h4>Backend</h4>
+                <ul class="mt-3">
+                    <li><a href="https://www.php.net/">PHP</a> |
+                        <a href="https://laravel.com/">Laravel Framework</a></li>
+                    <li><a href="https://www.mysql.com/">MySQL</a></li>
+                </ul>
+                <hr style="width: 50%">
+                <h4>Frontend</h4>
+                <ul class="mt-3">
+                    <li>HTML5</li>
+                    <li>CSS3</li>
+                    <li>JavaScript</li>
+                    <li>Bootstrap</li>
+                </ul>
+                <hr>
+                <h3>Database Diagram</h3>
+                <img src="assets/img/diagram.svg" alt="database diagram">
+                <hr>
+                <h3>Obstacles</h3>
+                <p>In the beginning it was hard due to the lack of knowledge in the framework I was working on, I had
+                    to google a lot of things at first to figure out how to do things and so on, but eventually things
+                    have become more easy and my vision was clearer and made me become more productive in my
+                    graduation project.
+                </p>
+                <hr>
+                <h3>Security</h3>
+                <p>My website has been through some security checks, making sure that the guards are working properly
+                    and each page matches the credentials it needs from users.
+                </p>
+            </section>
+            <section id="get-started" class="install_require">
+                <div class="section">
+                    <div class="card">
+                        <div class="card-header">
+                            <h4 class="card-title">Installation</h4>
+                        </div>
+                        <div class="card-content">
+                            <div class="card-body">
+                                <p>Given below are the steps you need to follow, to install the Project on
+                                    your system:</p>
+                                <p><strong>Step 1: </strong>Open the terminal in your root
+                                    directory(project directory) &amp; to install
+                                    the composer packages run the following command:</p>
+                                <div class="prism-show-language"></div>
+                                <pre
+                                        class=" mb-1 language-php"><code class>composer<span
+                                        class="token space"> </span>install</code></pre>
+                                <!-- step 3 -->
+                                <p class="step-3"><strong>Step 2: </strong>By running the following command, you
+                                    will be able to get all the dependencies in
+                                    your node_modules folder:</p>
+                                <div class="prism-show-language"></div>
+                                <pre
+                                        class=" mb-1 language-php"><code class>npm<span class="token space"> </span>install</code></pre>
+                                <!-- step 4 -->
+
+                                <p class="step-5"><strong>Step 3: </strong>To serve the application you need to run
+                                    the following command in the project
+                                    directory. (This will give you an address
+                                    with port number 8000.) Now navigate
+                                    to the given address you will
+                                    see your application is running.</p>
+                                <div class="prism-show-language"></div>
+                                <pre
+                                        class=" mb-1 language-php"><code class>php<span class="token space"> </span>artisan<span
+                                        class="token space"> </span>serve</code></pre>
+                                <p>To change the port address, run the following command:</p>
+                                <div class="prism-show-language"></div>
+                                <pre
+                                        class="language php mb-1 language-php"><code class>php<span
+                                        class="token space"> </span>artisan<span class="token space"> </span>serve<span
+                                        class="token space"> </span><span class="token operator">--</span>port<span
+                                        class="token operator">=</span><span class="token number">8080</span><span
+                                        class="token space"> </span><span class="token comment" spellcheck="true">// For port 8080</span><span
+                                        class="token lf"></code></pre>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="requirements" class=" require_details">
+                <h3>Requirements</h3>
+                <ul class="mt-3">
+                    <li><a href="https://www.php.net/">PHP</a> &gt;= 7.2.5</li>
+                    <li>MYSQL</li>
+                </ul>
+            </section>
+
+
+            <section id="lar_structure" class="require_details">
+                <h3>Laravel Structure</h3>
+                Project Directory
+                <pre class="mb-0 struct_laravel">
+	|--app
+	   | --console
+	   | --Exceptions
+	   | --Http
+	   | --Providers
+           | --Rules
+	|--bootstrap
+	   | --Cache
+	|--config
+	|--database
+        |--node_modules
+	|--public
+	   | --CSS
+	   | --fonts
+	   | --img
+	   | --js
+	|--resources
+	   | --views
+        | --auth
+        | --dashboard
+	    | --layout
+		 | --partials
+		  | --admin_footer.blade.php
+		  | --admin_header.blade.php
+              | --layouts
+              | --public
+	|--routes
+	   | --api.php
+	   | --channels.php
+	   | --console.php
+	   | --web.php
+	|--storage
+	|--tests
+	|--vendor
+	|--editorconfig
+	|--env
+	|--env.example
+	|--styleci.yml
+	|--artisan
+	|--composer.json
+	|--composer.lock
+	|--package.json
+	|--package-lock.json
+	|--phpunit
+	|--README.md
+	|--webpack.mix
+								</pre>
+            </section>
+
+            <section id="credits" class="credit">
+                <h3>Credits</h3>
+                <p>I used the following resources as listed. These are some awesome creation and I am thankful
+                    to the community.</p>
+                <div class="table-responsive">
+                    <table class="table table-striped table-bordered">
+                        <thead>
+                        <tr>
+                            <th>Plugin</th>
+                            <th>Link</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+
+                        <tr>
+                            <td>Bootstrap</td>
+                            <td><a href="https://getbootstrap.com/" target="_blank">http://getbootstrap.com/</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>jquery</td>
+                            <td><a href="https://jquery.com/"
+                                   target="_blank">https://jquery.com/</a></td>
+                        </tr>
+                        <tr>
+                            <td>Data Table</td>
+                            <td><a href="https://datatables.net/" target="_blank">https://datatables.net/</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>FontAwesome</td>
+                            <td><a href="https://fontawesome.com/" target="_blank">https://fontawesome.com/</a>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+
+            <section id="Mockup" class="log intro">
+                <h3 class="mb-3">Mockup</h3>
+                <div class="table-responsive table-bordered">
+                    <img src="assets/img/m1.png" alt="mockup">
+                    <img src="assets/img/m2.png" alt="mockup">
+                    <img src="assets/img/m3.png" alt="mockup">
+                    <img src="assets/img/m4.png" alt="mockup">
+                    <img src="assets/img/m5.png" alt="mockup">
+                </div>
+            </section>
+        </div>
+    </div>
+</div>
+<script src="assets/js/jquery-3.2.1.min.js"></script>
+<script src="assets/js/popper.min.js"></script>
+<script src="assets/js/bootstrap.min.js"></script>
+<script src="assets/js/script.js"></script>
+
+</body>
+
+</html>
